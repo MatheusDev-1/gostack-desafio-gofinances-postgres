@@ -32,11 +32,6 @@ export default class CreateTransaction1597944959546
             scale: 2,
           },
           {
-            name: 'category_id',
-            type: 'uuid',
-            isNullable: true,
-          },
-          {
             name: 'created_at',
             type: 'timestamp',
             default: 'now()',
