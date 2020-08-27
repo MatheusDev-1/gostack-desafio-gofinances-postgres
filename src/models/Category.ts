@@ -3,7 +3,7 @@ import {
   Column,
   PrimaryGeneratedColumn,
   CreateDateColumn,
-  OneToMany
+  OneToMany,
 } from 'typeorm';
 
 import Transaction from './Transaction';
